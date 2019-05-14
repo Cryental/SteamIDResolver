@@ -18,6 +18,6 @@ Console.WriteLine("STEAMID32: " + SteamIDConvert.Steam64ToSteam2((long)steam.Get
 Console.WriteLine();
 Console.WriteLine("[+] Searching Username from ID...");
 Console.WriteLine();
-Console.WriteLine("Username: " + SteamUserSearcher.GetUserName(steam.GetSteamId().ToString(CultureInfo.InvariantCulture), "Your Steam ID"));
+Console.WriteLine("Username: " + SteamUserSearcher.GetUserName(steam.GetSteamId().ToString(CultureInfo.InvariantCulture), "Your Steam API Key"));
 Console.ReadKey();
 ```
