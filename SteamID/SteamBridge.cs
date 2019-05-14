@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Runtime.InteropServices;
 using Microsoft.Win32;
 
@@ -125,6 +125,9 @@ namespace SteamID
 
             ReleaseUser(hSteamPipe, hSteamUser);
             ReleaseSteamPipe(hSteamPipe);
+
+            if (id == 76561197960265728)
+                throw new InvalidOperationException("Unable to get the correct steam ID.");
 
             return id;
         }
