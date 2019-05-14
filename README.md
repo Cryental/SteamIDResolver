@@ -2,6 +2,7 @@
 Current User's Steam ID and Username Resolver
 
 When you logged in to Steam, it will retrieve your current user ID from the client.
+
 To use this library, you have to get your API key from Steam Developers: https://steamcommunity.com/dev/apikey
 
 
