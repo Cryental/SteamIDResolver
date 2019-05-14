@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamID", "SteamID\SteamID.csproj", "{584EC9A5-8BC8-4F8A-894F-82BE0F2F9A51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamID.Test", "SteamID.Test\SteamID.Test.csproj", "{40BF92D1-7686-4E08-93D8-124BA28EEAA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{584EC9A5-8BC8-4F8A-894F-82BE0F2F9A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584EC9A5-8BC8-4F8A-894F-82BE0F2F9A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584EC9A5-8BC8-4F8A-894F-82BE0F2F9A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584EC9A5-8BC8-4F8A-894F-82BE0F2F9A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40BF92D1-7686-4E08-93D8-124BA28EEAA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BF92D1-7686-4E08-93D8-124BA28EEAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BF92D1-7686-4E08-93D8-124BA28EEAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BF92D1-7686-4E08-93D8-124BA28EEAA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8982C22-82DE-4ACB-97C2-8FBC48188AA3}
+	EndGlobalSection
+EndGlobal
